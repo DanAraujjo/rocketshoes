@@ -13,3 +13,12 @@ Importe o _Provider_ e _store_ no arquivo [src/App.js](/src/App.js)
 Crie o arquivo [src/store/modules/rootReducer.js](/src/store/modules/rootReducer.js)
 
 Crie o arquivo [src/store/modules/cart/reducer.js](/src/store/modules/cart/reducer.js)
+
+Importe o _connect_ na pagina desejada.
+Exemplo:
+
+```
+import { connect } from 'react-redux';
+
+export default connect()(Home);
+```
