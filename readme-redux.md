@@ -22,3 +22,11 @@ import { connect } from 'react-redux';
 
 export default connect()(Home);
 ```
+
+Instale
+
+```
+yarn add reactotron-react-js reactotron-redux
+```
+
+Crie o arquivo [src/config/ReactotronConfig.js](/src/config/ReactotronConfig.js)
